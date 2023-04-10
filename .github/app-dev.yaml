@@ -1,5 +1,6 @@
 auth:
   
+<<<<<<< HEAD
   orgId: "![yqKEWZ57M3XUasumfcwhVykLsfUM6yOEv2oEJ04vxZc=]"
   
   # If auth mode = platform-credentials (ignored, otherwise):
@@ -9,12 +10,24 @@ auth:
   # If auth mode = connected-app-credentials (ignored, otherwise):
   clientId: "![Zjv8nFIUwDlayZ6O7DP31p1zQRfrwfjbkmi5DyNiD38=]"
   clientSecret: "![yqKEWZ57M3XUasumfcwhV35QQl9B5mf5GBon8eY/x8o=]"
+=======
+  orgId: "[ENTER ORG ID]"
+  
+  # If auth mode = platform-credentials (ignored, otherwise):
+  username: "[ENTER USERNAME]"
+  password: "[ENTER PASSWORD]"
+  
+  # If auth mode = connected-app-credentials (ignored, otherwise):
+  clientId: "[ENTER CLIENT ID]"
+  clientSecret: "[ENTER SECRET]"
+>>>>>>> d699f4fc9037dfec19b10d9febf20c874b663a41
      
 ignoreLists:
   organizations: ""  #Array: comma-separated values 'orgId1,orgId2'
   environments: ""  #Array: comma-separated values 'envId1,envId2'
 
 splunk:
+<<<<<<< HEAD
   token: "![yqKEWZ57M3XUasumfcwhV5A3JMblY6G4MCwHM5j5VuA=]"
   
 elk:
@@ -24,10 +37,22 @@ elk:
 mongodb:
   username: "![/MYApdJC2Oq9ALH/X9E4rQ==]"
   password: "![zTQsE6niuuBuS/I4rKfoeA==]"
+=======
+  token: "[ENTER SPLUNK TOKEN]"
+  
+elk:
+  user: "[ENTER USERNAME]"
+  password: "[ENTER PASSWORD]"
+
+mongodb:
+  username: "[ENTER USERNAME]"
+  password: "[ENTER PASSWORD]"
+>>>>>>> d699f4fc9037dfec19b10d9febf20c874b663a41
 
 # SDLC Metrics
 sdlc:
   confluence:
+<<<<<<< HEAD
     user: "![0CXQwZBMmw43vtBN7jyoRQ==]"
     token: "![0CXQwZBMmw43vtBN7jyoRQ==]"
   bitbucket:
@@ -49,4 +74,27 @@ sfdc:
   username : "![0CXQwZBMmw43vtBN7jyoRQ==]"
   password : "![0CXQwZBMmw43vtBN7jyoRQ==]"
   securityToken : "![L2Ow6bBvBDEGmQYrutHfIcsBg]"
+=======
+    user: "[ENTER USER]"
+    token: "[ENTER TOKEN]"
+  bitbucket:
+    user: "[ENTER USER]"
+    token: "[ENTER TOKEN]"
+  jira:
+    user: "[ENTER USER]"
+    token: "[ENTER TOKEN]"
+  jenkins:
+    user: "[ENTER USER]"
+    token: "[ENTER TOKEN]"
+  splunk:
+    user: "[ENTER USER]"
+    password: "[ENTER PASSWORD]"
+  azuredevops:
+    token: "[ENTER TOKEN]"
+    
+sfdc:
+  username : "[ENTER USER]"
+  password : "[ENTER PASSWORD]"
+  securityToken : "[ENTER TOKEN]"
+>>>>>>> d699f4fc9037dfec19b10d9febf20c874b663a41
   # authUrl : ""
